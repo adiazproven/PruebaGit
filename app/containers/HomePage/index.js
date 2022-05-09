@@ -6,13 +6,13 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import PokemonList from '../../components/PokemonList';
 
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    // <h1>
+    //   <FormattedMessage {...messages.header} />
+    // </h1>
+    <PokemonList />
   );
 }
